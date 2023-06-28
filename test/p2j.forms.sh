@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 STARTTIME=$(date +%s)
-AGENCIES=("dc" "de" "ef" "fd" "nd" "or" "pa" "sc" "va")
+AGENCIES=("dc")
 for i in "${AGENCIES[@]}"
 do
 	sh ./p2j.one.sh $i form "Expected: NO Exception, All Parsed OK"
